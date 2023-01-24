@@ -33,7 +33,7 @@ const getUserById = (id, callback) => {
       
 }
 
-getUserById(5 ,(err, usuario) => {
+getUserById(20 ,(err, usuario) => {
     if (err) {
         return console.log(err);
     }
